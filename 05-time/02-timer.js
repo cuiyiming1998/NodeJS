@@ -8,6 +8,7 @@ function loop(){
   console.log('I will loop forever');
   if(++count == 10){
     global.clearInterval(timerID);
+    console.log('...end');
   }
 };
 
