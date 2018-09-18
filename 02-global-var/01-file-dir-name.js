@@ -1,9 +1,10 @@
 #! /usr/bin/node
 
-  console.log('file nam e',__filename);
-  console.log('dir name',__dirname);
+  console.log('file name',__filename); // 路径 + 文件名
+  console.log('dir name',__dirname); // 路径
 
-  //var file = __dirname + '/view/data.html';
+  //var
+  //file = __dirname + '/view/data.html';
 
 
  /*  switch(process.platform){
@@ -14,6 +15,7 @@
       file = __diename + '\\view\\data.html'
     default:
         file = 'error';
+  
         }
  */
 

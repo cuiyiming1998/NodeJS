@@ -7,3 +7,5 @@ for (var i=0;i<process.argv.length;i++){
 }
 */
 console.log('%s = %d',process.argv[2],eval(process.argv[2]));
+
+// eval(string) 用于计算字符串，并执行期中的JS代码
