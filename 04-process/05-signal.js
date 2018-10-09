@@ -9,4 +9,3 @@ process.on('SIGINT',()=>{
 
 process.on('SIGTSTP',()=>{
   console.log('you have pressed Ctrl+Z');
-})
